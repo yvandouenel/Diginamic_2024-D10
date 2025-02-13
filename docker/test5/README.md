@@ -6,6 +6,6 @@ docker build -t my-alpine-job .
 ```
 ## attention à bien avoir créé un chemin local
 ```bash
-docker run -it -v /chemin/local:/data my-alpine-job my-alpine-job
+docker run -it -v /chemin/local:/data my-alpine-job
 
 ```
